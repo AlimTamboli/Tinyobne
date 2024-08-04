@@ -1,0 +1,183 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.row,
+.row::before,
+.row::after{
+	width: 100%;
+	display: table;
+	clear: both;
+}
+
+/*-------header section css starts from here-----*/
+
+.hero-image{
+	background-color: #fcdb00;
+	padding: 70px 0;
+}
+
+.hero-image a{
+	text-decoration: none;
+	color: #010101;
+	font-size: 22px;
+	font-weight: bold;
+	padding: 18px;	
+}
+
+.hero-image a li{
+	margin: 0 18px;
+}
+
+.hero-image .heading{
+	font-size: 32px;
+	color: #010101;
+	font-weight: bold;
+	margin-top: 75px;
+}
+
+.hero-image .sub-heading{
+	font-size: 20px;
+	color: #313841;
+	font-weight: regular;
+	margin: 30px 0;	
+}
+
+.hero-image .para-info{
+	font-size: 16px;
+	color: #555555;
+	font-weight: regular;
+	margin-bottom: 45px;	
+}
+
+.hero-image .heading-para::first-letter{
+	text-transform: capitalize;
+}
+
+.logoo{
+	margin:40px 20px;	
+}
+.navbar li a{
+    transition: all 0.7s ease-in-out;	
+}
+
+.navbar li a:hover{
+	background-color: black;
+	color: #fcdb00;
+}
+
+/*------feature section css starts from here----------*/
+
+.feature .container{
+	background-color: #ffffff;
+	margin: 0 auto;
+	padding: 120px 0;
+	text-align: center;
+}
+
+.feature h1{
+	color: #010101;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.feature .heading-para{
+	color: #313841;
+	font-size: 20px;
+	margin: 25px 115px 40px 115px;
+}	
+
+.feature .margin-all{
+	padding: 45px 0 22.5px 0;
+	margin: 45px 0 22.5px 0;
+}
+
+.feature .margin-all2{
+	padding: 22.5px 0 45px 0;
+	margin: 22.5px 0 0px 0;
+}
+.feature .message-box{
+	padding: 5px 15px;
+}
+.feature .heading{
+	font-size: 22px;
+	color: #010101;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.feature .para{
+	font-size: 16px;
+	color: #898989;
+	text-align: left;
+	margin-top: 10px;
+}
+
+/*------contact section css starts from here-----*/
+
+.contact{
+	background-color: #010101;
+	text-align: center;
+	padding: 100px 0;
+}
+
+.contact .heading{
+	color: #fcdb00 ;
+	font-size: 32px ;	
+	text-align: center;
+}
+
+.contact .para{
+	color: #898989 ;
+	font-size: 20px;
+	padding: 25px 55px;
+	text-align: center;
+}
+
+.form-control{
+	background-color: #ffffff;	
+	height: 50px;
+	width: calc(100% - 150px);
+	border-radius: 5px;
+	padding: 0 25px;
+}
+
+.form-control::placeholder{
+	color:#898989;
+}
+
+.submitbtn{
+	background-color: #fbdb00;
+	height: 50px;
+	line-height: 50px;
+	cursor: pointer;
+	width: 125px;
+	border-radius: 5px;
+	color: #010101;
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 20px;
+	text-transform: uppercase;
+	transition: all 0.3s ease-in-out;
+}
+
+.submitbtn:hover,
+.submitbtn:focus{
+	 background-color: black;
+	 color: #fbdb00;
+}	
+
+.submitbtn:active{
+	background-color: red;
+}
+
+.footer{
+	color: white;
+	text-align: left;
+	color: #ffffff;
+	font-size: 16px;
+	margin-bottom: 140px;
+}
+
